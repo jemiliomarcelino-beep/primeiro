@@ -2,7 +2,7 @@
     --blue: #176bdb;
     --dark: #17243a;
     --bg: #f4f7fb;
-    --green: #16a34a;
+    --green: #1d5b33;
     --border: #e4eaf2;
   }
   
@@ -27,12 +27,12 @@
   }
   
   .sidebar h2 {
-    color: --green(--green);
+    color: var(--green);
     margin-bottom: 5px;
   }
   
   .subtitle {
-    color: #8190a5;
+    color: darkgreen;
     margin-bottom: 35px;
   }
   
@@ -54,8 +54,8 @@
   
   nav button:hover,
   nav button.active {
-    background: #eaf2ff;
-    color: var(--blue);
+    background:darkgreen;
+    color: var(--bg);
     font-weight: bold;
   }
   
@@ -90,8 +90,8 @@
   }
   
   .admin {
-    background: #eaf2ff;
-    color: var(--blue);
+    background: rgb(185, 223, 185);
+    color: var(--green);
     padding: 10px 14px;
     border-radius: 20px;
     font-size: 13px;
@@ -140,13 +140,13 @@
   }
   
   input:focus, select:focus {
-    outline: 2px solid #b8d4ff;
+    outline: 2px solid rgb(110, 210, 110);
     border-color: var(--blue);
   }
   
   .primary {
     border: 0;
-    background: var(--blue);
+    background: var(--green);
     color: white;
     padding: 13px 18px;
     border-radius: 8px;
@@ -155,7 +155,7 @@
   }
   
   .primary:hover {
-    background: #1057b7;
+    background:darkgreen;
   }
   
   .table-wrap {

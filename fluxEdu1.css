@@ -1,0 +1,36 @@
+
+.container{
+
+    display: grid;
+    grid-template-columns:200px ;
+    grid-template-rows: 100px 100px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 200px;
+    row-gap: 140px;
+margin-left: 200px;
+
+
+}
+
+img{
+
+  width: 70vw;  
+height: 100vh;
+
+}
+
+h1{
+    color:green;
+    margin-left: 400px;
+    font-size:70px;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
